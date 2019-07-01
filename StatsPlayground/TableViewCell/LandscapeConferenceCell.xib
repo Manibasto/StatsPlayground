@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LandscapeConferenceCell" id="KGk-i7-Jjw" customClass="LandscapeConferenceCell" customModule="StatsPlayground" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1290" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="1290" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conference" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBe-UL-3SO">
+                        <rect key="frame" x="1195" y="0.0" width="90" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="0aW-R3-7Ej"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conference" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuE-xY-7LE">
+                        <rect key="frame" x="5" y="0.0" width="90" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="DO9-XY-kjY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E38-pt-4mh">
+                        <rect key="frame" x="1085" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="fEJ-Y7-mdn"/>
+                            <constraint firstAttribute="height" constant="20" id="ppc-Sh-a7K"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gFt-fX-afG">
+                        <rect key="frame" x="995" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="4pM-g5-6Gi"/>
+                            <constraint firstAttribute="height" constant="20" id="bOZ-3t-jxd"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ONK-wP-5We">
+                        <rect key="frame" x="905" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="aHu-6v-TEB"/>
+                            <constraint firstAttribute="height" constant="20" id="xaX-m6-VUZ"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rkK-Vs-yxf">
+                        <rect key="frame" x="815" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="CKj-jf-RhI"/>
+                            <constraint firstAttribute="width" constant="20" id="lae-Ec-dAd"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PyA-Ui-bTa">
+                        <rect key="frame" x="725" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="3c7-Vj-Mrp"/>
+                            <constraint firstAttribute="height" constant="20" id="JSy-bq-N3j"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fN2-Hg-ihl">
+                        <rect key="frame" x="635" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="nsN-7L-yQe"/>
+                            <constraint firstAttribute="width" constant="20" id="r1b-GY-hS4"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JqI-hq-eg5">
+                        <rect key="frame" x="545" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="UMI-zw-K9Y"/>
+                            <constraint firstAttribute="height" constant="20" id="VRt-eQ-9Tm"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NWF-fx-P6J">
+                        <rect key="frame" x="455" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="1d8-da-21d"/>
+                            <constraint firstAttribute="height" constant="20" id="a7l-tN-ZdZ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="eBe-UL-3SO" firstAttribute="leading" secondItem="E38-pt-4mh" secondAttribute="trailing" constant="90" id="3qF-Wo-U55"/>
+                    <constraint firstAttribute="trailing" secondItem="eBe-UL-3SO" secondAttribute="trailing" constant="5" id="5kK-FG-WgW"/>
+                    <constraint firstItem="PyA-Ui-bTa" firstAttribute="centerY" secondItem="rkK-Vs-yxf" secondAttribute="centerY" id="9NX-YV-zlN"/>
+                    <constraint firstItem="ONK-wP-5We" firstAttribute="centerY" secondItem="gFt-fX-afG" secondAttribute="centerY" id="9dO-li-dY6"/>
+                    <constraint firstItem="eBe-UL-3SO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FsT-yc-CKa"/>
+                    <constraint firstItem="nuE-xY-7LE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IvG-f6-mJU"/>
+                    <constraint firstItem="JqI-hq-eg5" firstAttribute="leading" secondItem="NWF-fx-P6J" secondAttribute="trailing" constant="70" id="Lef-LF-L1W"/>
+                    <constraint firstAttribute="bottom" secondItem="eBe-UL-3SO" secondAttribute="bottom" id="QCb-A7-f5e"/>
+                    <constraint firstItem="NWF-fx-P6J" firstAttribute="centerY" secondItem="JqI-hq-eg5" secondAttribute="centerY" id="QOZ-T4-hia"/>
+                    <constraint firstItem="PyA-Ui-bTa" firstAttribute="leading" secondItem="fN2-Hg-ihl" secondAttribute="trailing" constant="70" id="QvY-Nu-5L0"/>
+                    <constraint firstItem="gFt-fX-afG" firstAttribute="centerY" secondItem="E38-pt-4mh" secondAttribute="centerY" id="XS0-EY-u7x"/>
+                    <constraint firstItem="ONK-wP-5We" firstAttribute="leading" secondItem="rkK-Vs-yxf" secondAttribute="trailing" constant="70" id="YSE-o6-8Cn"/>
+                    <constraint firstItem="rkK-Vs-yxf" firstAttribute="leading" secondItem="PyA-Ui-bTa" secondAttribute="trailing" constant="70" id="Z04-YK-Rg8"/>
+                    <constraint firstItem="E38-pt-4mh" firstAttribute="leading" secondItem="gFt-fX-afG" secondAttribute="trailing" constant="70" id="bOM-na-9c6"/>
+                    <constraint firstItem="fN2-Hg-ihl" firstAttribute="centerY" secondItem="PyA-Ui-bTa" secondAttribute="centerY" id="bdK-8Q-C2q"/>
+                    <constraint firstAttribute="bottom" secondItem="nuE-xY-7LE" secondAttribute="bottom" id="ee1-Qq-KJo"/>
+                    <constraint firstItem="fN2-Hg-ihl" firstAttribute="leading" secondItem="JqI-hq-eg5" secondAttribute="trailing" constant="70" id="hew-Rs-yuV"/>
+                    <constraint firstItem="gFt-fX-afG" firstAttribute="leading" secondItem="ONK-wP-5We" secondAttribute="trailing" constant="70" id="iI3-mD-5PJ"/>
+                    <constraint firstItem="nuE-xY-7LE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="jId-0X-Jhy"/>
+                    <constraint firstItem="rkK-Vs-yxf" firstAttribute="centerY" secondItem="ONK-wP-5We" secondAttribute="centerY" id="jsN-xQ-UuX"/>
+                    <constraint firstItem="E38-pt-4mh" firstAttribute="centerY" secondItem="eBe-UL-3SO" secondAttribute="centerY" id="nJg-Xa-pNq"/>
+                    <constraint firstItem="JqI-hq-eg5" firstAttribute="centerY" secondItem="fN2-Hg-ihl" secondAttribute="centerY" id="xPX-Dq-Oi6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="conferenceWin1" destination="PyA-Ui-bTa" id="EWI-yE-bee"/>
+                <outlet property="conferenceWin2" destination="rkK-Vs-yxf" id="18c-gt-bvp"/>
+                <outlet property="conferenceWin3" destination="ONK-wP-5We" id="JR0-Fq-RlY"/>
+                <outlet property="conferenceWin4" destination="gFt-fX-afG" id="6of-zf-EO9"/>
+                <outlet property="conferenceWin5" destination="E38-pt-4mh" id="yAw-Pb-64r"/>
+            </connections>
+            <point key="canvasLocation" x="-30.399999999999999" y="154.72263868065968"/>
+        </tableViewCell>
+    </objects>
+</document>

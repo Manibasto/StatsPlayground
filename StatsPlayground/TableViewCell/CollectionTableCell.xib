@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CollectionTableCell" rowHeight="55" id="KGk-i7-Jjw" customClass="CollectionTableCell" customModule="StatsPlayground" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1381" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="1381" height="54.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="4MK-PA-mL3">
+                        <rect key="frame" x="140" y="0.0" width="1101" height="54.5"/>
+                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="20" id="v22-ud-p0d">
+                            <size key="itemSize" width="80" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6f4-Dh-Lm4">
+                        <rect key="frame" x="80" y="0.0" width="40" height="54.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="H3Y-f5-17Y"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="leftArrow"/>
+                        <connections>
+                            <action selector="leftArrowTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="1WU-sE-ugI"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXZ-0y-UiZ">
+                        <rect key="frame" x="1261" y="0.0" width="40" height="54.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="aw2-ZX-tpp"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="right_Arrow_Grey"/>
+                        <connections>
+                            <action selector="rightArrowTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cL9-0B-4Mf"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="TXZ-0y-UiZ" secondAttribute="trailing" constant="80" id="0ON-ZV-zqz"/>
+                    <constraint firstItem="6f4-Dh-Lm4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5vP-It-3JO"/>
+                    <constraint firstItem="TXZ-0y-UiZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="L5R-QO-gSP"/>
+                    <constraint firstItem="4MK-PA-mL3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="LJd-I1-d4Q"/>
+                    <constraint firstAttribute="bottom" secondItem="4MK-PA-mL3" secondAttribute="bottom" id="W7f-Ng-GsW"/>
+                    <constraint firstItem="TXZ-0y-UiZ" firstAttribute="leading" secondItem="4MK-PA-mL3" secondAttribute="trailing" constant="20" id="i4w-aa-DdS"/>
+                    <constraint firstAttribute="bottom" secondItem="TXZ-0y-UiZ" secondAttribute="bottom" id="oYW-P9-4rf"/>
+                    <constraint firstItem="6f4-Dh-Lm4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="80" id="qir-54-iU8"/>
+                    <constraint firstItem="4MK-PA-mL3" firstAttribute="leading" secondItem="6f4-Dh-Lm4" secondAttribute="trailing" constant="20" id="yUy-EW-8W6"/>
+                    <constraint firstAttribute="bottom" secondItem="6f4-Dh-Lm4" secondAttribute="bottom" id="yrP-1e-bDF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="4MK-PA-mL3" id="UV3-d0-WZ1"/>
+                <outlet property="leftArrow" destination="6f4-Dh-Lm4" id="qDb-t7-txh"/>
+                <outlet property="rightArrow" destination="TXZ-0y-UiZ" id="5bE-05-4U4"/>
+            </connections>
+            <point key="canvasLocation" x="365.60000000000002" y="-30.134932533733135"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="leftArrow" width="128" height="128"/>
+        <image name="right_Arrow_Grey" width="128" height="128"/>
+    </resources>
+</document>
